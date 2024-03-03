@@ -1,0 +1,31 @@
+@keyframes flyInLoop {
+  0% {
+    transform: translateY(0) translateY(1vw);
+  }
+  50% {
+    transform: translateY(1.5vw) translateY(1vw);
+  }
+  100% {
+    transform: translateY(0) translateY(1vw);
+  }
+}
+
+@keyframes flyInLoop1 {
+  0% {
+    transform: translateY(1) translateY(0vw);
+  }
+  50% {
+    transform: translateY(1vw) translateY(1.5vw);
+  }
+  100% {
+    transform: translateY(0) translateY(0vw);
+  }
+}
+
+.flying-table {
+  animation: flyInLoop 3s linear infinite;
+}
+
+.flying-bord {
+  animation: flyInLoop1 3s linear infinite;
+}
