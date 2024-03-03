@@ -1,17 +1,12 @@
 # TRANSCENDENCE
 
-sudo docker-compose down
-sudo docker system prune
-sudo docker-compose up
+About:
+The ft_transcendence project aims to create an online multiplayer gaming platform where users can play various games and interact with each other. 
+The platform will support features like real-time multiplayer gaming, chat rooms, user profiles, and more.
 
-to run backend :
-
-npm i
-sudo docker-compose up
-npx prisma generate
-npx prisma migrate dev --name init
-npm run start:dev
-
-to see database : npx prisma studio
-
-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
+Features:
+- Real-time multiplayer gaming
+- Chat rooms for communication between players
+- User authentication and authorization
+- User profiles with customizable avatars
+- Admin dashboard for managing users and games
